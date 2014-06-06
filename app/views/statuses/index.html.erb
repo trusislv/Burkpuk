@@ -1,5 +1,5 @@
 <h1 class="page-header">Activitātes</h1>
-<% link_to "Jauns Ziņojums", new_status, class:"btn btn-success" %>
+<%= link_to "Jauns Ziņojums", new_status_path, class:"btn btn-success" %>
 <% @statuses.each do |status| %>
 <div class="status">
 <strong><%= status.name %></strong>
